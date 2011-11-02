@@ -1,11 +1,20 @@
 ﻿Client Resource Admin
 =====================
 
-This is an administrative module for DNN 6.1 that provides a user interface for key settings for managing CSS/JS resources. It allows a DNN SuperUser to update their web.config through the UI instead of editing the web.config by hand.
+This is a logging provider for the Client Dependency Framework to log debug, info, warning, and error messages to the DotNetNuke event viewer. At time of writing the CDF project logs the following events (and with this module these events are now noted in the DNN Event log):
+
+* "Could not load file contents" (BaseCompositeFileProcessingProvider and CompositeFileProcessingProvider)
+* "Could not load file contents. Domain is not white-listed" (BaseCompositeFileProcessingProvider)
+* "Could not write file contents to stream" (CompositeFileProcessingProvider)
+* "No bytes were returned" when looking for the file map (CompositeDependencyHandler)
+* "No bytes were returned 5 attempts" Fatal (CompositeDependencyHandler)
+* ClientDependency handler path is null (CompositeDependencyHandler)
+
+As you can see, it's mostly useful for finding out if there is trouble getting individual files into a composite file.
 
 Installation
 ------------
-Download the latest installable module package from the "ModulePackages" folder. Both Install and Source are installable through the DNN UI, Source just includes the C# code-behind.
+Download the latest installable module package from the "ModulePackages" folder. Both Install and Source are installable through the DNN UI, Source just includes the C# code.
 
 Usage
 -----
