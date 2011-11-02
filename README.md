@@ -18,7 +18,7 @@ Download the latest installable module package from the "ModulePackages" folder.
 
 Usage
 -----
-Caution: clicking save in the module will update your web.config and restart your website. Please plan accordingly.
+This module does not have a user interface of any kind. Just install and check the event viewer if you see anything funny going on (or even if you don't).
 
 Blog posts
 ----------
