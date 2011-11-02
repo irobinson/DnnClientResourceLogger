@@ -1,8 +1,8 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="DnnClientResourceLogger" type="Module" version="00.00.01">
+    <package name="DnnClientResourceLogger" type="Library" version="00.00.02">
       
-      <friendlyName>Client Resource Admin</friendlyName>
+      <friendlyName>Client Resource Logger</friendlyName>
       <description>This is a logging provider for the Client Dependency Framework to log debug, info, warning, and error messages to the DotNetNuke event viewer.</description>
       
       <owner>
@@ -40,7 +40,9 @@
             </install>
             <uninstall>
               <configuration>
-                <nodes />
+                <nodes>
+                  <node path="/configuration/clientDependency" action="updateattribute" name="loggerType" value="" />
+                </nodes>
               </configuration>
             </uninstall>
           </config>
