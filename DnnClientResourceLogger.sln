@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnnClientResourceLogger", "DnnClientResourceLogger.csproj", "{57C486D8-2E28-48EC-8D4E-C93D4C340302}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{0481B1B4-E847-4FF8-9C54-BA9B30EDFCD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetNuke", "DotNetNuke", "{D3E000B6-3622-4E2C-83BF-44002BA32982}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientDependencyFramework", "ClientDependencyFramework", "{C14E56F7-1073-4AB1-8115-0BFB328BCDC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildScripts", "BuildScripts", "{AE60B2BF-40BA-4DBD-9477-1468E15D9C98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57C486D8-2E28-48EC-8D4E-C93D4C340302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C486D8-2E28-48EC-8D4E-C93D4C340302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C486D8-2E28-48EC-8D4E-C93D4C340302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C486D8-2E28-48EC-8D4E-C93D4C340302}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3E000B6-3622-4E2C-83BF-44002BA32982} = {0481B1B4-E847-4FF8-9C54-BA9B30EDFCD2}
+		{C14E56F7-1073-4AB1-8115-0BFB328BCDC3} = {0481B1B4-E847-4FF8-9C54-BA9B30EDFCD2}
+	EndGlobalSection
+EndGlobal
